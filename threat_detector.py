@@ -5,7 +5,9 @@ import time
 decline=["No","no","nah","nahi"]
 accept=["yes","Yes","ho"]
 
-pb=Pushbullet("o.ZNw6hKcdp0PXK5uelvBhW307LhAf15hP")
+#api_key : pushbullet api key
+
+pb=Pushbullet("api_key")
 
 message =pb.push_note("Verification","Did you just logged in?")
 
